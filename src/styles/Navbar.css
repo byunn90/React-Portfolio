@@ -76,3 +76,7 @@
     font-size: 1.2rem;
   }
 }
+
+.my-footer {
+  border-top: 2px solid black;
+}

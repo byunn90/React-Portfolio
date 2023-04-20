@@ -1,0 +1,21 @@
+#email {
+  font-size: 10px;
+}
+
+#name {
+  font-size: 10px;
+}
+#message {
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 20px;
+  width: 300px;
+  /* width: min-content; */
+}

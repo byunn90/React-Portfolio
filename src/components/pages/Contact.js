@@ -8,10 +8,11 @@ export default function Contact() {
     return <p>Thanks for joining!</p>;
   }
   return (
-    <form onSubmit={handleSubmit}>
+    <form className="contact-form" onSubmit={handleSubmit}>
       <label htmlFor="email">Email Address</label>
       <input id="email" type="email" name="email" />
       <ValidationError prefix="Email" field="email" errors={state.errors} />
+
       <label htmlFor="name">name</label>
       <input id="name" type="name" name="name" />
       <ValidationError prefix="Name" field="name" errors={state.errors} />
