@@ -20,7 +20,7 @@ This is a portfolio website built using React, showcasing my projects and skills
 
 ## Usage:
 
-To view the deployed website, go to https://your-username.github.io/react-portfolio/
+To view the deployed website, go to https://github.com/byunn90/React-Portfolio
 
 ## Modules Used:
 
@@ -34,7 +34,7 @@ To view the deployed website, go to https://your-username.github.io/react-portfo
 
 ## Installation:
 
-1. Clone the repository: git clone https://github.com/your-username/react-portfolio.git
+1. Clone the repository: git clone git@github.com:byunn90/React-Portfolio.git
 2. Install dependencies: npm install
 3. Run the application: npm start
 
