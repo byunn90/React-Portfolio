@@ -23,7 +23,7 @@ function Home() {
             portfolio, and I look forward to hearing from you!
           </p>
           <div>
-            <a href="../../CV/kayhanResume.pdf" download>
+            <a href="../../../CV/kayhanResume.pdf" download>
               <button>Resume</button>
             </a>
           </div>
