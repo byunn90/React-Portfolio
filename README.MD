@@ -6,17 +6,17 @@ This is a portfolio website built using React, showcasing my projects and skills
 
 ## Packages Used:
 
--react
--react-dom
--react-router-dom
--react-icons
+- react
+- react-dom
+- react-router-dom
+- react-icons
 
 ## Built With
 
--HTML
--CSS
--JavaScript
--React
+- HTML
+- CSS
+- JavaScript
+- React
 
 ## Usage:
 
