@@ -1,5 +1,11 @@
-.left {
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
-
+.left,
 .right {
+  width: 50%;
+  text-align: center;
 }

@@ -78,5 +78,8 @@
 }
 
 .my-footer {
-  border-top: 2px solid black;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
