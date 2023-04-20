@@ -6,7 +6,7 @@ function Navbar({ currentPage, handlePageChange }) {
     <nav className="my-navbar">
       <div className="container d-flex justify-content-between align-items-center">
         <a className="navbar-brand" href="#">
-          Kayhan PortFolio Website
+          Kayhan PortFolio
         </a>
         <ul className="nav-links d-flex align-items-center">
           <li className="nav-item active">
