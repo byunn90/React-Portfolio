@@ -225,3 +225,23 @@ button:active {
     border-bottom: 1px solid #ccc;
   }
 }
+
+.skillset {
+  margin-top: 30px;
+}
+
+.skillset h4 {
+  margin-bottom: 10px;
+}
+
+.skillset ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skillset li {
+  margin: 10px;
+  font-size: 30px;
+}

@@ -167,3 +167,11 @@
     padding: 1rem;
   }
 }
+@media screen and (max-width: 1047.98px) {
+  .right {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    padding: 1rem;
+  }
+}

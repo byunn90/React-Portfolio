@@ -40,6 +40,7 @@ function Home() {
             </a>
           </div>
           <div className="skillset">
+            <h4>Skill Set</h4>
             <ul>
               <li>
                 <FaHtml5 style={{ color: "#E44D26" }} />
