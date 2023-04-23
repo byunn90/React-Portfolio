@@ -158,3 +158,70 @@ button:active {
     height: 1.5rem;
   }
 }
+.list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.list li svg {
+  margin-right: 0.5rem;
+}
+
+.skillset {
+  margin-top: 2rem;
+}
+
+.skillset ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skillset li {
+  margin: 0 1rem;
+  text-align: center;
+}
+
+.skillset svg {
+  width: 4rem;
+  height: 4rem;
+  color: #555;
+}
+
+.aboutMe-Header {
+  font-size: 30px;
+}
+
+.resume {
+  margin-top: 2rem;
+}
+
+.skillset {
+  margin-top: 4rem;
+}
+
+.about-me-header {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .about-me-header {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+}

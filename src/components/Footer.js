@@ -17,7 +17,7 @@ function Footer({ currentPage, handlePageChange }) {
         </a>
       </div>
       <div className="container d-flex justify-content-center align-items-center">
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand">
           © 2023 Kayhan PortFolio | All rights reserved.
         </a>
       </div>
