@@ -1,7 +1,7 @@
 import React from "react";
 import "../../styles/Projects.css";
 import "../../styles/Home.css";
-
+import pwa from "../../images/PwaTexteditor.png";
 const projects = [
   {
     name: "Project 1",
@@ -17,18 +17,19 @@ const projects = [
     deployedLink: "https://byunn90.github.io/quizzer/",
   },
   {
-    name: "Project 2",
+    name: "Project 3",
+    image: pwa,
+    githubLink: "https://github.com/byunn90/Scribbler-PWA",
+    deployedLink: "https://mighty-taiga-72298.herokuapp.com/",
+  },
+
+  {
+    name: "Project 4",
     image: "https://github.com/byunn90/quizzer/raw/main/images/quizzGame.png",
     githubLink: "https://github.com/byunn90/quizzer",
     deployedLink: "https://byunn90.github.io/quizzer/",
   },
 
-  {
-    name: "Project 2",
-    image: "https://github.com/byunn90/quizzer/raw/main/images/quizzGame.png",
-    githubLink: "https://github.com/byunn90/quizzer",
-    deployedLink: "https://byunn90.github.io/quizzer/",
-  },
   // Add more projects here...
 ];
 
