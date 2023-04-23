@@ -1,33 +1,32 @@
 import React from "react";
 import "../../styles/Projects.css";
-import "../../styles/Home.css";
 import pwa from "../../images/PwaTexteditor.png";
 const projects = [
   {
-    name: "Project 1",
+    name: "Tech-Blog",
     image:
       "https://github.com/byunn90/Tech-Blog-MVC/raw/main/Assets/blogposts.png",
     githubLink: "https://github.com/byunn90/Tech-Blog-MVC",
     deployedLink: "https://shrouded-taiga-72180.herokuapp.com/",
   },
   {
-    name: "Project 2",
+    name: "Quizz Game",
     image: "https://github.com/byunn90/quizzer/raw/main/images/quizzGame.png",
     githubLink: "https://github.com/byunn90/quizzer",
     deployedLink: "https://byunn90.github.io/quizzer/",
   },
   {
-    name: "Project 3",
+    name: "Pwa-text-editor",
     image: pwa,
     githubLink: "https://github.com/byunn90/Scribbler-PWA",
     deployedLink: "https://mighty-taiga-72298.herokuapp.com/",
   },
 
   {
-    name: "Project 4",
-    image: "https://github.com/byunn90/quizzer/raw/main/images/quizzGame.png",
-    githubLink: "https://github.com/byunn90/quizzer",
-    deployedLink: "https://byunn90.github.io/quizzer/",
+    name: "Database-Seeder",
+    image:
+      "https://github.com/byunn90/Dev-Database-Seeder-Express-Sequelize/raw/main/Assets/Screenshot%20(58).png",
+    Code: "https://github.com/byunn90/Dev-Database-Seeder-Express-Sequelize",
   },
 
   // Add more projects here...
