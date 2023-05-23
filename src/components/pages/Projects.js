@@ -10,6 +10,18 @@ const projects = [
     deployedLink: "https://moviesearchengine.herokuapp.com",
   },
   {
+    name: "Cinema-Sphere",
+    image: cinemaSphere,
+    githubLink: "https://github.com/byunn90/CinemaSphere",
+    deployedLink: "https://moviesearchengine.herokuapp.com",
+  },
+  {
+    name: "Cinema-Sphere",
+    image: cinemaSphere,
+    githubLink: "https://github.com/byunn90/CinemaSphere",
+    deployedLink: "https://moviesearchengine.herokuapp.com",
+  },
+  {
     name: "Tech-Blog",
     image:
       "https://github.com/byunn90/Tech-Blog-MVC/raw/main/Assets/blogposts.png",
