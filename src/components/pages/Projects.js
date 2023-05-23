@@ -2,14 +2,7 @@ import React from "react";
 import "../../styles/Projects.css";
 import pwa from "../../images/PwaTexteditor.png";
 import cinemaSphere from "../../images/Cinema-Sphere-home.jpg";
-import weather from "../../images/Kayhan-Weather-App.jpg";
 const projects = [
-  {
-    name: "Cinema-Sphere",
-    image: cinemaSphere,
-    githubLink: "https://github.com/byunn90/CinemaSphere",
-    deployedLink: "https://moviesearchengine.herokuapp.com",
-  },
   {
     name: "Tech-Blog",
     image:
