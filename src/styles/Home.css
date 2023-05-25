@@ -1,0 +1,247 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.right {
+  width: 50%;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+}
+
+.cloud-container {
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.cloud-container:before {
+  content: "";
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  width: 60px;
+  height: 60px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  transform: rotate(45deg);
+}
+
+.about-me {
+  margin: 0;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #555;
+}
+
+.image-container {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.portrait {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+button {
+  position: relative;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 50px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #ff6b6b;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+button::before {
+  content: "Resume";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button:hover::before {
+  content: "Download";
+  transform: translateX(0);
+}
+
+button:focus {
+  outline: none;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 1rem;
+  width: 2rem;
+  height: 2rem;
+}
+
+.social-icons svg {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 767.98px) {
+  .home {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: auto;
+  }
+
+  .left {
+    width: 100%;
+  }
+
+  .right {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .cloud-container {
+    margin-top: 1rem;
+  }
+
+  .about-me {
+    font-size: 1.2rem;
+  }
+
+  .image-container {
+    width: 150px;
+    height: 150px;
+  }
+
+  .social-icons a {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
+.list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.list li svg {
+  margin-right: 0.5rem;
+}
+
+.skillset {
+  margin-top: 2rem;
+}
+
+.skillset ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skillset li {
+  margin: 0 1rem;
+  text-align: center;
+}
+
+.skillset svg {
+  width: 4rem;
+  height: 4rem;
+  color: #555;
+}
+
+.aboutMe-Header {
+  font-size: 30px;
+}
+
+.resume {
+  margin-top: 2rem;
+}
+
+.skillset {
+  margin-top: 4rem;
+}
+
+.about-me-header {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .about-me-header {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+}
+
+.skillset {
+  margin-top: 30px;
+}
+
+.skillset h4 {
+  margin-bottom: 10px;
+}
+
+.skillset ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skillset li {
+  margin: 10px;
+  font-size: 30px;
+}

@@ -1,0 +1,177 @@
+.my-navbar {
+  background-color: #333;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  text-decoration: none;
+  font-size: 20px;
+  color: #fdfdfd;
+}
+
+.navbar-brand {
+  font-size: 3.5rem;
+  font-weight: normal;
+  color: #333;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin: 0 1rem;
+}
+
+.nav-link {
+  font-size: 2rem;
+  color: #333;
+  text-decoration: none;
+  position: relative;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #333;
+  transition: all 0.2s ease-in-out;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .my-navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+  }
+
+  .navbar-brand {
+    margin-bottom: 1rem;
+  }
+
+  .nav-links {
+    margin-top: 1rem;
+  }
+
+  .nav-item {
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+
+  .nav-link {
+    font-size: 1.2rem;
+  }
+}
+
+.my-footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.my-footer .navbar-brand {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.my-footer .navbar-brand:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .my-navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    padding: 1rem;
+  }
+
+  .navbar-brand {
+    margin-bottom: 1rem;
+  }
+
+  .nav-links {
+    margin-top: 1rem;
+    gap: 20px;
+  }
+
+  .nav-item {
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+
+  .nav-link {
+    font-size: 1.2rem;
+  }
+  .navbar-brand {
+    margin-right: 100px;
+  }
+
+  .my-footer {
+    height: auto;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .my-footer .navbar-brand {
+    margin-bottom: 0.5rem;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .aboutMe-Header {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 479.98px) {
+  .aboutMe-Header {
+    font-size: 18px;
+    padding: 5px;
+  }
+}
+
+@media screen and (max-width: 803.98px) {
+  .right {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 787.98px) {
+  .right {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    padding: 1rem;
+  }
+}
+@media screen and (max-width: 1047.98px) {
+  .right {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    padding: 1rem;
+  }
+}
