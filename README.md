@@ -1,9 +1,8 @@
 # React-Portfolio
 
-![alt text](./src/images/frontpage.jpg)![front-page](https://github.com/byunn90/React-Portfolio/assets/83154746/19dd1c8f-d2bc-41ce-b9fc-62a4e44cb650)
+![front-page](https://github.com/byunn90/React-Portfolio/assets/83154746/19dd1c8f-d2bc-41ce-b9fc-62a4e44cb650)
+![Screenshot (100)](https://github.com/byunn90/React-Portfolio/assets/83154746/01356c00-fc5d-490c-98e9-89dfc928dfb8)
 
-![alt text](./src/images/projects.jpg)
-![alt text](./src/images/email.jpg)
 
 ## Description
 
