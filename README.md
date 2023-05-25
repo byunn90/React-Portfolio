@@ -1,6 +1,7 @@
 # React-Portfolio
 
-![alt text](./src/images/frontpage.jpg)
+![alt text](./src/images/frontpage.jpg)![front-page](https://github.com/byunn90/React-Portfolio/assets/83154746/19dd1c8f-d2bc-41ce-b9fc-62a4e44cb650)
+
 ![alt text](./src/images/projects.jpg)
 ![alt text](./src/images/email.jpg)
 
