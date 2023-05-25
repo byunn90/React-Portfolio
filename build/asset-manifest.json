@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.494a5e45.css",
-    "main.js": "/React-Portfolio/static/js/main.a43a0514.js",
+    "main.js": "/React-Portfolio/static/js/main.d961c6d4.js",
     "static/media/Kayhan-Weather-App.jpg": "/React-Portfolio/static/media/Kayhan-Weather-App.b1f13357279a561a0f3b.jpg",
-    "static/media/Cinema-Sphere-home.jpg": "/React-Portfolio/static/media/Cinema-Sphere-home.f9fae80325d582fc5093.jpg",
+    "static/media/Cinema-Sphere-home.png": "/React-Portfolio/static/media/Cinema-Sphere-home.f9fae80325d582fc5093.png",
     "static/media/KayhanImage.jpg": "/React-Portfolio/static/media/KayhanImage.3767368a8e58d313a9ab.jpg",
-    "static/media/kayhanResume.pdf": "/React-Portfolio/static/media/kayhanResume.22e419f157c433775948.pdf",
+    "static/media/kayhanResume.pdf": "/React-Portfolio/static/media/kayhanResume.270786d0ab0f32faa36a.pdf",
     "static/media/PwaTexteditor.png": "/React-Portfolio/static/media/PwaTexteditor.b49b8a05af070b0006b9.png",
     "static/media/yjebqfmd.jpg": "/React-Portfolio/static/media/yjebqfmd.d71d0736a70007203b38.jpg",
     "index.html": "/React-Portfolio/index.html",
     "main.494a5e45.css.map": "/React-Portfolio/static/css/main.494a5e45.css.map",
-    "main.a43a0514.js.map": "/React-Portfolio/static/js/main.a43a0514.js.map"
+    "main.d961c6d4.js.map": "/React-Portfolio/static/js/main.d961c6d4.js.map"
   },
   "entrypoints": [
     "static/css/main.494a5e45.css",
-    "static/js/main.a43a0514.js"
+    "static/js/main.d961c6d4.js"
   ]
 }
